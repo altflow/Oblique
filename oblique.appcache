@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# version 1 (2012/05/24)
+
+CACHE:
+index.html
+favicon.ico
+img/apple-touch-icon.png
+img/apple-touch-icon-114.png
+css/oblique.css
+js/jquery-1.7.2.min.js
+js/jquery.swipeListener.js
+js/jquery.lineJustify.js
+js/oblique_data.js
+js/oblique_deck.js
+js/oblique_card.js
+js/oblique.js
+
+NETWORK:

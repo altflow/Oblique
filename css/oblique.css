@@ -1,0 +1,129 @@
+/**
+ * oblique.css
+ * stylesheet for oblique strategy
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	color: #d6d6d6;
+	height: 100%;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+}
+
+#deck {
+	height: 100%;
+	min-height: 100%;
+	padding: 2em;
+	text-align: center;
+}
+
+#card {
+	display: table-cell;
+	margin: 4em auto auto auto;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	top: -1000px;
+	vertical-align: middle;
+	z-index: 1;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 0 4px #888;
+}
+
+/**
+ * animation (transition)
+ */
+
+.opened {
+	-webkit-transition-duration: 700ms;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform: translateY(1000px);	
+}
+
+.up {
+	-webkit-transition-duration: 1200ms;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform: translateY(-1000px);	
+}
+
+.down {
+	-webkit-transition-duration: 1000ms;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform: translateY(2000px);	
+}
+
+.left {
+	-webkit-transition-duration: 1000ms;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform: translate(-1000px, 1000px);	
+}
+
+.right {
+	-webkit-transition-duration: 1000ms;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform: translate(1000px, 1000px);	
+}
+
+/**
+ * color schemes
+ */
+
+.scheme-59477E {
+	background: #D5D1DF;
+	color: #59477E;
+}
+
+.scheme-6B9E67 {
+	background: #DAE7D9;
+	color: #6B9E67;
+}
+
+.scheme-E71669 {
+	background: #F9C5D9;
+	color: #E71669;
+}
+
+.scheme-D09C2D {
+	background: #F3E6CA;
+	color: #D09C2D;
+}
+
+.scheme-0B7865 {
+	background: #C2DDD8;
+	color: #0B7865;
+}
+
+.scheme-FF8000 {
+	background:  #FFDFBF;
+	color: #FF8000;
+}
+.scheme-000000 {
+	background: #BFBFBF;
+	color: #000000;
+}
+
+.scheme-9644A2 {
+	background: #E5D0E8;
+	color: #9644A2;
+}
+
+.scheme-D6D448 {
+	background: #F5F4D1;
+	color: #D6D448;
+}
+
+.scheme-F52F4B {
+	background: #FCCBD2;
+	color: #F52F4B;
+}
+
